@@ -13,6 +13,38 @@
 		151F9C6C1E40608700A0DDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C6A1E40608700A0DDDF /* Main.storyboard */; };
 		151F9C6E1E40608700A0DDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C6D1E40608700A0DDDF /* Assets.xcassets */; };
 		151F9C711E40608700A0DDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C6F1E40608700A0DDDF /* LaunchScreen.storyboard */; };
+		151F9C7A1E4060B800A0DDDF /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F9C791E4060B800A0DDDF /* OpenGLView.m */; };
+		151F9C7D1E406B2B00A0DDDF /* SceneLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F9C7C1E406B2B00A0DDDF /* SceneLoader.m */; };
+		151F9C801E406B5300A0DDDF /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F9C7F1E406B5300A0DDDF /* SMXMLDocument.m */; };
+		151F9C831E406B7F00A0DDDF /* CharacterRunning.png in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C811E406B7F00A0DDDF /* CharacterRunning.png */; };
+		151F9C841E406B7F00A0DDDF /* CharacterRunning.txt in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C821E406B7F00A0DDDF /* CharacterRunning.txt */; };
+		151F9C871E40742B00A0DDDF /* GeometryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F9C861E40742B00A0DDDF /* GeometryLoader.m */; };
+		151F9C8A1E4092AB00A0DDDF /* entityfragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C881E4092AB00A0DDDF /* entityfragment.glsl */; };
+		151F9C8B1E4092AB00A0DDDF /* entityvertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 151F9C891E4092AB00A0DDDF /* entityvertex.glsl */; };
+		151F9C8E1E40930F00A0DDDF /* ProgramClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F9C8D1E40930F00A0DDDF /* ProgramClass.m */; };
+		1593E12D1E4300C300E4552D /* AnimatedModelLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593E12C1E4300C300E4552D /* AnimatedModelLoader.m */; };
+		1593E1331E43025C00E4552D /* Joint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593E1321E43025C00E4552D /* Joint.m */; };
+		1593E1361E43044C00E4552D /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593E1351E43044C00E4552D /* Animation.m */; };
+		1593E1391E4305B900E4552D /* JointTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593E1381E4305B900E4552D /* JointTransform.m */; };
+		1593E13C1E4305CA00E4552D /* KeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593E13B1E4305CA00E4552D /* KeyFrame.m */; };
+		1593E13F1E4306AF00E4552D /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593E13E1E4306AF00E4552D /* Animator.m */; };
+		8BE5C7631E422C3C0031EF96 /* skyboxfragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5C7611E422C3C0031EF96 /* skyboxfragment.glsl */; };
+		8BE5C7641E422C3C0031EF96 /* skyboxvertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5C7621E422C3C0031EF96 /* skyboxvertex.glsl */; };
+		8BE5C7701E422C870031EF96 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5C76A1E422C870031EF96 /* right.png */; };
+		8BE5C7731E422DC20031EF96 /* SkyBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7721E422DC20031EF96 /* SkyBox.m */; };
+		8BE5C7791E4237170031EF96 /* ColladaLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7781E4237170031EF96 /* ColladaLoader.m */; };
+		8BE5C77D1E4238C00031EF96 /* SkinLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C77C1E4238C00031EF96 /* SkinLoader.m */; };
+		8BE5C7801E4238E30031EF96 /* SkinningData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C77F1E4238E30031EF96 /* SkinningData.m */; };
+		8BE5C7831E423C860031EF96 /* VertexSkinData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7821E423C860031EF96 /* VertexSkinData.m */; };
+		8BE5C7861E424EDC0031EF96 /* JointsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7851E424EDC0031EF96 /* JointsLoader.m */; };
+		8BE5C7891E424EEC0031EF96 /* JointsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7881E424EEC0031EF96 /* JointsData.m */; };
+		8BE5C78C1E42507F0031EF96 /* JointData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C78B1E42507F0031EF96 /* JointData.m */; };
+		8BE5C78F1E4256850031EF96 /* MeshData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C78E1E4256850031EF96 /* MeshData.m */; };
+		8BE5C7921E425A7A0031EF96 /* AnimationModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7911E425A7A0031EF96 /* AnimationModelData.m */; };
+		8BE5C7951E425CEA0031EF96 /* AnimationLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7941E425CEA0031EF96 /* AnimationLoader.m */; };
+		8BE5C7981E425CFD0031EF96 /* AnimationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C7971E425CFD0031EF96 /* AnimationData.m */; };
+		8BE5C79B1E42633C0031EF96 /* KeyFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C79A1E42633C0031EF96 /* KeyFrameData.m */; };
+		8BE5C79E1E4263820031EF96 /* JointTransformData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5C79D1E4263820031EF96 /* JointTransformData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +58,63 @@
 		151F9C6D1E40608700A0DDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		151F9C701E40608700A0DDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		151F9C721E40608700A0DDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151F9C781E4060B800A0DDDF /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		151F9C791E4060B800A0DDDF /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		151F9C7B1E406B2A00A0DDDF /* SceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneLoader.h; sourceTree = "<group>"; };
+		151F9C7C1E406B2B00A0DDDF /* SceneLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneLoader.m; sourceTree = "<group>"; };
+		151F9C7E1E406B5300A0DDDF /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		151F9C7F1E406B5300A0DDDF /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		151F9C811E406B7F00A0DDDF /* CharacterRunning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CharacterRunning.png; sourceTree = "<group>"; };
+		151F9C821E406B7F00A0DDDF /* CharacterRunning.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CharacterRunning.txt; sourceTree = "<group>"; };
+		151F9C851E40742B00A0DDDF /* GeometryLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryLoader.h; sourceTree = "<group>"; };
+		151F9C861E40742B00A0DDDF /* GeometryLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryLoader.m; sourceTree = "<group>"; };
+		151F9C881E4092AB00A0DDDF /* entityfragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entityfragment.glsl; sourceTree = "<group>"; };
+		151F9C891E4092AB00A0DDDF /* entityvertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entityvertex.glsl; sourceTree = "<group>"; };
+		151F9C8C1E40930F00A0DDDF /* ProgramClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramClass.h; sourceTree = "<group>"; };
+		151F9C8D1E40930F00A0DDDF /* ProgramClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramClass.m; sourceTree = "<group>"; };
+		1593E12B1E4300C300E4552D /* AnimatedModelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedModelLoader.h; sourceTree = "<group>"; };
+		1593E12C1E4300C300E4552D /* AnimatedModelLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedModelLoader.m; sourceTree = "<group>"; };
+		1593E1311E43025C00E4552D /* Joint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joint.h; sourceTree = "<group>"; };
+		1593E1321E43025C00E4552D /* Joint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joint.m; sourceTree = "<group>"; };
+		1593E1341E43044C00E4552D /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		1593E1351E43044C00E4552D /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		1593E1371E4305B900E4552D /* JointTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointTransform.h; sourceTree = "<group>"; };
+		1593E1381E4305B900E4552D /* JointTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointTransform.m; sourceTree = "<group>"; };
+		1593E13A1E4305CA00E4552D /* KeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrame.h; sourceTree = "<group>"; };
+		1593E13B1E4305CA00E4552D /* KeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrame.m; sourceTree = "<group>"; };
+		1593E13D1E4306AF00E4552D /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		1593E13E1E4306AF00E4552D /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		8BE5C7611E422C3C0031EF96 /* skyboxfragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skyboxfragment.glsl; sourceTree = "<group>"; };
+		8BE5C7621E422C3C0031EF96 /* skyboxvertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skyboxvertex.glsl; sourceTree = "<group>"; };
+		8BE5C76A1E422C870031EF96 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		8BE5C7711E422DC20031EF96 /* SkyBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyBox.h; sourceTree = "<group>"; };
+		8BE5C7721E422DC20031EF96 /* SkyBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyBox.m; sourceTree = "<group>"; };
+		8BE5C7771E4237170031EF96 /* ColladaLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColladaLoader.h; sourceTree = "<group>"; };
+		8BE5C7781E4237170031EF96 /* ColladaLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColladaLoader.m; sourceTree = "<group>"; };
+		8BE5C77B1E4238C00031EF96 /* SkinLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinLoader.h; sourceTree = "<group>"; };
+		8BE5C77C1E4238C00031EF96 /* SkinLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinLoader.m; sourceTree = "<group>"; };
+		8BE5C77E1E4238E20031EF96 /* SkinningData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinningData.h; sourceTree = "<group>"; };
+		8BE5C77F1E4238E30031EF96 /* SkinningData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinningData.m; sourceTree = "<group>"; };
+		8BE5C7811E423C860031EF96 /* VertexSkinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexSkinData.h; sourceTree = "<group>"; };
+		8BE5C7821E423C860031EF96 /* VertexSkinData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexSkinData.m; sourceTree = "<group>"; };
+		8BE5C7841E424EDC0031EF96 /* JointsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointsLoader.h; sourceTree = "<group>"; };
+		8BE5C7851E424EDC0031EF96 /* JointsLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointsLoader.m; sourceTree = "<group>"; };
+		8BE5C7871E424EEC0031EF96 /* JointsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointsData.h; sourceTree = "<group>"; };
+		8BE5C7881E424EEC0031EF96 /* JointsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointsData.m; sourceTree = "<group>"; };
+		8BE5C78A1E42507F0031EF96 /* JointData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointData.h; sourceTree = "<group>"; };
+		8BE5C78B1E42507F0031EF96 /* JointData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointData.m; sourceTree = "<group>"; };
+		8BE5C78D1E4256850031EF96 /* MeshData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshData.h; sourceTree = "<group>"; };
+		8BE5C78E1E4256850031EF96 /* MeshData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshData.m; sourceTree = "<group>"; };
+		8BE5C7901E425A7A0031EF96 /* AnimationModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationModelData.h; sourceTree = "<group>"; };
+		8BE5C7911E425A7A0031EF96 /* AnimationModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationModelData.m; sourceTree = "<group>"; };
+		8BE5C7931E425CEA0031EF96 /* AnimationLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationLoader.h; sourceTree = "<group>"; };
+		8BE5C7941E425CEA0031EF96 /* AnimationLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLoader.m; sourceTree = "<group>"; };
+		8BE5C7961E425CFD0031EF96 /* AnimationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationData.h; sourceTree = "<group>"; };
+		8BE5C7971E425CFD0031EF96 /* AnimationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationData.m; sourceTree = "<group>"; };
+		8BE5C7991E42633C0031EF96 /* KeyFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameData.h; sourceTree = "<group>"; };
+		8BE5C79A1E42633C0031EF96 /* KeyFrameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameData.m; sourceTree = "<group>"; };
+		8BE5C79C1E4263820031EF96 /* JointTransformData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointTransformData.h; sourceTree = "<group>"; };
+		8BE5C79D1E4263820031EF96 /* JointTransformData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointTransformData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +131,9 @@
 		151F9C551E40608300A0DDDF = {
 			isa = PBXGroup;
 			children = (
+				151F9C811E406B7F00A0DDDF /* CharacterRunning.png */,
+				151F9C821E406B7F00A0DDDF /* CharacterRunning.txt */,
+				8BE5C76A1E422C870031EF96 /* right.png */,
 				151F9C601E40608600A0DDDF /* Collada-Skelton-Animation */,
 				151F9C5F1E40608400A0DDDF /* Products */,
 			);
@@ -58,10 +150,19 @@
 		151F9C601E40608600A0DDDF /* Collada-Skelton-Animation */ = {
 			isa = PBXGroup;
 			children = (
+				8B9F28E61E459CA80088036B /* Animation */,
+				8BE5C77A1E4238900031EF96 /* ColladaParser */,
+				8BE5C7761E4236400031EF96 /* SkyBox */,
+				8BE5C7751E42360D0031EF96 /* XML+Program */,
+				8BE5C7741E4234880031EF96 /* Shaders */,
 				151F9C641E40608700A0DDDF /* AppDelegate.h */,
 				151F9C651E40608700A0DDDF /* AppDelegate.m */,
 				151F9C671E40608700A0DDDF /* ViewController.h */,
 				151F9C681E40608700A0DDDF /* ViewController.m */,
+				151F9C781E4060B800A0DDDF /* OpenGLView.h */,
+				151F9C791E4060B800A0DDDF /* OpenGLView.m */,
+				151F9C7B1E406B2A00A0DDDF /* SceneLoader.h */,
+				151F9C7C1E406B2B00A0DDDF /* SceneLoader.m */,
 				151F9C6A1E40608700A0DDDF /* Main.storyboard */,
 				151F9C6D1E40608700A0DDDF /* Assets.xcassets */,
 				151F9C6F1E40608700A0DDDF /* LaunchScreen.storyboard */,
@@ -77,6 +178,91 @@
 				151F9C621E40608600A0DDDF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9F28E61E459CA80088036B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1593E13D1E4306AF00E4552D /* Animator.h */,
+				1593E13E1E4306AF00E4552D /* Animator.m */,
+				1593E12B1E4300C300E4552D /* AnimatedModelLoader.h */,
+				1593E12C1E4300C300E4552D /* AnimatedModelLoader.m */,
+				1593E1371E4305B900E4552D /* JointTransform.h */,
+				1593E1381E4305B900E4552D /* JointTransform.m */,
+				1593E13A1E4305CA00E4552D /* KeyFrame.h */,
+				1593E13B1E4305CA00E4552D /* KeyFrame.m */,
+				1593E1341E43044C00E4552D /* Animation.h */,
+				1593E1351E43044C00E4552D /* Animation.m */,
+				1593E1311E43025C00E4552D /* Joint.h */,
+				1593E1321E43025C00E4552D /* Joint.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		8BE5C7741E4234880031EF96 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5C7611E422C3C0031EF96 /* skyboxfragment.glsl */,
+				8BE5C7621E422C3C0031EF96 /* skyboxvertex.glsl */,
+				151F9C891E4092AB00A0DDDF /* entityvertex.glsl */,
+				151F9C881E4092AB00A0DDDF /* entityfragment.glsl */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		8BE5C7751E42360D0031EF96 /* XML+Program */ = {
+			isa = PBXGroup;
+			children = (
+				151F9C7E1E406B5300A0DDDF /* SMXMLDocument.h */,
+				151F9C7F1E406B5300A0DDDF /* SMXMLDocument.m */,
+				151F9C8C1E40930F00A0DDDF /* ProgramClass.h */,
+				151F9C8D1E40930F00A0DDDF /* ProgramClass.m */,
+			);
+			name = "XML+Program";
+			sourceTree = "<group>";
+		};
+		8BE5C7761E4236400031EF96 /* SkyBox */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5C7711E422DC20031EF96 /* SkyBox.h */,
+				8BE5C7721E422DC20031EF96 /* SkyBox.m */,
+			);
+			name = SkyBox;
+			sourceTree = "<group>";
+		};
+		8BE5C77A1E4238900031EF96 /* ColladaParser */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5C7771E4237170031EF96 /* ColladaLoader.h */,
+				8BE5C7781E4237170031EF96 /* ColladaLoader.m */,
+				8BE5C7901E425A7A0031EF96 /* AnimationModelData.h */,
+				8BE5C7911E425A7A0031EF96 /* AnimationModelData.m */,
+				8BE5C7931E425CEA0031EF96 /* AnimationLoader.h */,
+				8BE5C7941E425CEA0031EF96 /* AnimationLoader.m */,
+				8BE5C7961E425CFD0031EF96 /* AnimationData.h */,
+				8BE5C7971E425CFD0031EF96 /* AnimationData.m */,
+				8BE5C7991E42633C0031EF96 /* KeyFrameData.h */,
+				8BE5C79A1E42633C0031EF96 /* KeyFrameData.m */,
+				8BE5C79C1E4263820031EF96 /* JointTransformData.h */,
+				8BE5C79D1E4263820031EF96 /* JointTransformData.m */,
+				8BE5C7841E424EDC0031EF96 /* JointsLoader.h */,
+				8BE5C7851E424EDC0031EF96 /* JointsLoader.m */,
+				8BE5C7871E424EEC0031EF96 /* JointsData.h */,
+				8BE5C7881E424EEC0031EF96 /* JointsData.m */,
+				8BE5C78A1E42507F0031EF96 /* JointData.h */,
+				8BE5C78B1E42507F0031EF96 /* JointData.m */,
+				8BE5C77B1E4238C00031EF96 /* SkinLoader.h */,
+				8BE5C77C1E4238C00031EF96 /* SkinLoader.m */,
+				8BE5C77E1E4238E20031EF96 /* SkinningData.h */,
+				8BE5C77F1E4238E30031EF96 /* SkinningData.m */,
+				8BE5C7811E423C860031EF96 /* VertexSkinData.h */,
+				8BE5C7821E423C860031EF96 /* VertexSkinData.m */,
+				151F9C851E40742B00A0DDDF /* GeometryLoader.h */,
+				151F9C861E40742B00A0DDDF /* GeometryLoader.m */,
+				8BE5C78D1E4256850031EF96 /* MeshData.h */,
+				8BE5C78E1E4256850031EF96 /* MeshData.m */,
+			);
+			name = ColladaParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				151F9C711E40608700A0DDDF /* LaunchScreen.storyboard in Resources */,
+				8BE5C7641E422C3C0031EF96 /* skyboxvertex.glsl in Resources */,
+				8BE5C7631E422C3C0031EF96 /* skyboxfragment.glsl in Resources */,
+				151F9C841E406B7F00A0DDDF /* CharacterRunning.txt in Resources */,
+				151F9C831E406B7F00A0DDDF /* CharacterRunning.png in Resources */,
 				151F9C6E1E40608700A0DDDF /* Assets.xcassets in Resources */,
+				151F9C8B1E4092AB00A0DDDF /* entityvertex.glsl in Resources */,
+				8BE5C7701E422C870031EF96 /* right.png in Resources */,
+				151F9C8A1E4092AB00A0DDDF /* entityfragment.glsl in Resources */,
 				151F9C6C1E40608700A0DDDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +343,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				151F9C691E40608700A0DDDF /* ViewController.m in Sources */,
+				8BE5C7861E424EDC0031EF96 /* JointsLoader.m in Sources */,
+				8BE5C7921E425A7A0031EF96 /* AnimationModelData.m in Sources */,
+				8BE5C7951E425CEA0031EF96 /* AnimationLoader.m in Sources */,
+				8BE5C79B1E42633C0031EF96 /* KeyFrameData.m in Sources */,
+				8BE5C7891E424EEC0031EF96 /* JointsData.m in Sources */,
 				151F9C661E40608700A0DDDF /* AppDelegate.m in Sources */,
+				1593E1331E43025C00E4552D /* Joint.m in Sources */,
+				1593E13F1E4306AF00E4552D /* Animator.m in Sources */,
+				8BE5C78C1E42507F0031EF96 /* JointData.m in Sources */,
+				8BE5C77D1E4238C00031EF96 /* SkinLoader.m in Sources */,
+				1593E12D1E4300C300E4552D /* AnimatedModelLoader.m in Sources */,
+				8BE5C79E1E4263820031EF96 /* JointTransformData.m in Sources */,
 				151F9C631E40608700A0DDDF /* main.m in Sources */,
+				151F9C7A1E4060B800A0DDDF /* OpenGLView.m in Sources */,
+				8BE5C7831E423C860031EF96 /* VertexSkinData.m in Sources */,
+				1593E1361E43044C00E4552D /* Animation.m in Sources */,
+				151F9C871E40742B00A0DDDF /* GeometryLoader.m in Sources */,
+				8BE5C7731E422DC20031EF96 /* SkyBox.m in Sources */,
+				151F9C801E406B5300A0DDDF /* SMXMLDocument.m in Sources */,
+				8BE5C78F1E4256850031EF96 /* MeshData.m in Sources */,
+				8BE5C7801E4238E30031EF96 /* SkinningData.m in Sources */,
+				1593E1391E4305B900E4552D /* JointTransform.m in Sources */,
+				8BE5C7981E425CFD0031EF96 /* AnimationData.m in Sources */,
+				1593E13C1E4305CA00E4552D /* KeyFrame.m in Sources */,
+				8BE5C7791E4237170031EF96 /* ColladaLoader.m in Sources */,
+				151F9C7D1E406B2B00A0DDDF /* SceneLoader.m in Sources */,
+				151F9C8E1E40930F00A0DDDF /* ProgramClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +483,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HVXRCTG5EY;
 				INFOPLIST_FILE = "Collada-Skelton-Animation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "X89.Collada-Skelton-Animation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skelton.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -276,9 +497,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HVXRCTG5EY;
 				INFOPLIST_FILE = "Collada-Skelton-Animation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "X89.Collada-Skelton-Animation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skelton.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,6 +526,7 @@
 				151F9C771E40608700A0DDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

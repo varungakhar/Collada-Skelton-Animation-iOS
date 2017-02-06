@@ -2,7 +2,7 @@
 //  ViewController.m
 //  Collada-Skelton-Animation
 //
-//  Created by KindleBit on 31/01/17.
+//  Created by Varun on 31/01/17.
 //  Copyright © 2017 X89. All rights reserved.
 //
 
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    OpenGLView *glview=[[OpenGLView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    [self.view addSubview:glview];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  Collada-Skelton-Animation
 //
-//  Created by KindleBit on 31/01/17.
+//  Created by Varun on 31/01/17.
 //  Copyright © 2017 X89. All rights reserved.
 //
 
